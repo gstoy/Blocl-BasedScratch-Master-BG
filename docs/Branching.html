@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Разклоняване &#8212; Runestone Interactive Overview</title>
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="_static/notes.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/runestonebase.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="_static/codemirror.js"></script>
+    <script type="text/javascript" src="_static/xml.js"></script>
+    <script type="text/javascript" src="_static/css.js"></script>
+    <script type="text/javascript" src="_static/python.js"></script>
+    <script type="text/javascript" src="_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="_static/activecode.js"></script>
+    <script type="text/javascript" src="_static/clike.js"></script>
+    <script type="text/javascript" src="_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/mchoice.js"></script>
+    <script type="text/javascript" src="_static/timedmc.js"></script>
+    <script type="text/javascript" src="_static/timed.js"></script>
+    <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/clickable.js"></script>
+    <script type="text/javascript" src="_static/timedclickable.js"></script>
+    <script type="text/javascript" src="_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="_static/pytutor.js"></script>
+    <script type="text/javascript" src="_static/codelens.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
+    <script type="text/javascript" src="_static/dragndrop.js"></script>
+    <script type="text/javascript" src="_static/timeddnd.js"></script>
+    <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/fitb.js"></script>
+    <script type="text/javascript" src="_static/timedfitb.js"></script>
+    <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
+    <script type="text/javascript" src="_static/shortanswer.js"></script>
+    <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="_static/karelCorner.js"></script>
+    <script type="text/javascript" src="_static/karelRobot.js"></script>
+    <script type="text/javascript" src="_static/karelWorld.js"></script>
+    <script type="text/javascript" src="_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="_static/karelUI.js"></script>
+    <script type="text/javascript" src="_static/karel.js"></script>
+    <script type="text/javascript" src="_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/notes.js"></script>
+    <script type="text/javascript" src="_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="_static/rangy-core.js"></script>
+    <script type="text/javascript" src="_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="_static/user-highlights.js"></script>
+    <script type="text/javascript" src="_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Списъци" href="Lists.html" />
+    <link rel="prev" title="Повторение" href="Repetition.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = 'Scratch3int';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = false;
+  eBookConfig.basecourse = 'Scratch3int';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '_images/';
+  eBookConfig.staticDir = '_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Block-based programming in Scratch</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-8 col-md-offset-2" id="main-content">
+  
+  <div class="section" id="id1">
+<h1>Разклоняване<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Споменахме, че повтарянето на една или повече команди (блокове) е важна концепция в програмирането.</p>
+<p>Еднакво полезна и значима е концепцията за <strong>програмно разклоняване</strong>. <strong>Разклоняването</strong> позволява дадена група от блокове да бъде изпълнена от програмата, докато другите – не. Кои команди ще действат зависи от изпълнението на условията. Разбираме условието като твърдение, което може да бъде <strong>вярно</strong> или <strong>грешно</strong>.</p>
+<p>EВъпреки че досега създавахме програми, които задействат команди една след друга от началото до края на програмата, повечето от програмите съдържат разклонения.</p>
+<p>Има два блока за разклоняване и те са разположени в категорията <strong>Контрол-Control</strong>:</p>
+<ul class="simple">
+<li><p>Блокът <img alt="If" src="_images/If.png" /> проверява условието и ако условието е <strong>вярно</strong>, задейства блоковете, държани в него, и</p></li>
+<li><p>Блокът <img alt="IfElse" src="_images/IfElse.png" /> проверява условието и ако условието е <strong>вярно</strong>, задейства една група от команди, а ако условието е <strong>грешно</strong>, задейства друга група.</p></li>
+</ul>
+<p>Един начин да определим дали дадено условие е изпълнено е да изберем от категорията <strong>Оператори</strong> един от <strong>сравняващите оператори</strong>:</p>
+<ul class="simple">
+<li><p>по-голямо от <img alt="VeceOd" src="_images/VeceOd.png" />;</p></li>
+<li><p>по-малко от <img alt="ManjeOd" src="_images/ManjeOd.png" />;</p></li>
+<li><p>равно на <img alt="Jednako" src="_images/Jednako.png" />.</p></li>
+</ul>
+
+            <div class="course-box course-box-question course-content">
+            <ul data-component="multiplechoice" data-multipleanswers="false"  id="GrananjeZ1">
+            <p>Q-2: Цената на сладолед е 100 монети. Анализирай текстовете, представени на фигурата, и избери правилното твърдение.</p>
+<img alt="_images/Sladoled.png" class="align-center" src="_images/Sladoled.png" />
+
+            <li data-component="answer"  id="GrananjeZ1_opt_a">В резултат на стартиране на скрипт A, програмата ще напише изречение "Ще купя сладолед!".</li><li data-component="feedback" id="GrananjeZ1_opt_a">Погледнете внимателно оператора за сравнение в сценария А. Вярваме, че можете да видите, че програмата ще напише изречението "Ще купя сладолед!" само ако цената на сладоледа е под 100 монети.</li>
+            
+            <li data-component="answer"  id="GrananjeZ1_opt_b">Изпълнението на скрипт А и Б ще има същия резултат - програмите ще напишат изречение "Ще купя сладолед!".</li><li data-component="feedback" id="GrananjeZ1_opt_b">Анализирайте как се определя операторът за сравнение в скрипт A и как е в сценарий B. Вярваме, че можете да видите това в сценарий A изречението "Ще купя сладолед!" ще се изписва само ако цената на сладоледа е под 100 монети. Изпълнявайки сценарий B, изречението "Ще купя сладолед!" ще бъде написано, ако цената е по-малка или равна на 100 монети.</li>
+            
+            <li data-component="answer" data-correct id="GrananjeZ1_opt_c">В резултат на стартиране на скрипт Б програмата ще напише изречение "Ще купя сладолед!".</li><li data-component="feedback" id="GrananjeZ1_opt_c">Браво! Програмата ще напише изречението "Ще купя сладолед!" ако цената е по-малка или равна на 100 монети.</li>
+            
+
+            </ul>
+            </div>
+            <p>Най-лесният начин да разберем разклоняването е като създадем програма, която симулира тест. Когато питаме потребителя въпрос и изчакаме неговия отговор, се очаква, че ще осигурим обратна връзка дали отговорът е бил правилен или не. Можем единствено да предоставим информация за правилността на отговор, ако определим дали отговорът на потребителя е идентичен с правилния отговор.</p>
+<img alt="_images/Kviz1.png" class="align-center" src="_images/Kviz1.png" />
+<p>Въпреки че изглежда сякаш сме написали кода правилно и правилният отговор на въпроса „Колко крака има кучето?” е 4, потребителят би могъл да отговори на въпроса, като напише дума, вместо число. С други думи, правилният отговор на въпроса не е само 4, но също така и:</p>
+<ul class="simple">
+<li><p>четири;</p></li>
+<li><p>cetiri;</p></li>
+<li><p>four.</p></li>
+</ul>
+<p>Очевидно е, че трябва да дефинираме условието по-внимателно, тоест, да приемем всеки възможен правилен отговор.</p>
+<p>Можем да преодолеем тази ситуация чрез използването на <strong>логически оператори</strong>, които можем да намерим в категорията <strong>Оператори</strong>:</p>
+<ul class="simple">
+<li><p>и <img alt="And" src="_images/And.png" />;</p></li>
+<li><p>или <img alt="Or" src="_images/Or.png" />;</p></li>
+<li><p>не <img alt="Not" src="_images/Not.png" />.</p></li>
+</ul>
+<p>В нашия случай правилният отговор може да бъде 4 или four или cetiri или четири. Затова ще използваме оператора <img alt="Or" src="_images/Or.png" /> няколко пъти, за да дефинираме условието.</p>
+<img alt="_images/Uslov.png" class="align-center" src="_images/Uslov.png" />
+<p>Кодът, който приема всички възможни форми на правилния отговор изглежда така:</p>
+<img alt="_images/Kviz2.png" class="align-center" src="_images/Kviz2.png" />
+<p><img alt="Uradi" src="_images/Uradi.png" /> Децата са свикнали с тъчскрийн устройствата  и не са свиклнали много с мишката. Ще им помогнем да развият това умение, като създадем програма със спрайт <strong>Камион</strong> и с <strong>Път за фон</strong>. Камионът трябва да следва мишката на потребителя и да отиде от лявата до дясната страна на сцената. По пътя камионът не трябва да докосва ръба на пътя. Ако камионът докосне ръба в който и да е момент, ще се върне в първоначалната си позиция (начална позиция в началото на пътуването от лявата страна на сцената - x: -226, y: -41). За създаването на тази програма те съветваме да използваш проекта <strong>Пътуване</strong>, който можеш да намериш на <a href="https://scratch.mit.edu/projects/326419371/" target="_blank">https://scratch.mit.edu/projects/326419371/</a>.</p>
+<img alt="_images/Putovanje.png" class="align-center" src="_images/Putovanje.png" />
+<p>Както можем да видим, спрайтът Камион е твърде голям за тесния път, нарисуван на фона на сцената, която използваме в тази програма. Можем също да видим, че пътят е бял и че черна линия разделя пътя от тревата. Трябва да имаш предвид тези неща, ако искаш да създадеш програмата сам.</p>
+
+    <div data-component="reveal" id="sakrivanjeGrananje1"   data-showtitle="Виж едно от възможните решения" data-hidetitle="Скрий решението">
+    <p><strong>Възможен отговор</strong></p>
+<img alt="_images/Putovanje1.png" class="align-center" src="_images/Putovanje1.png" />
+
+    </div>
+    <p><img alt="Izazov" src="_images/Izazov.png" /> Щеше да е добре, ако нашата програма можеше да измери колко ще отнеме да потребителя да „закара” камиона до края на пътя. Подобри програмата. Като добавиш текст, който ще измери времето, нужно на потребителя да завърши пътуването.</p>
+
+    <div data-component="reveal" id="sakrivanjeGrananje2"   data-showtitle="Виж едно от възможните решения" data-hidetitle="Скрий решението">
+    <p><strong>Възможен отговор</strong></p>
+<img alt="_images/Putovanje2.png" class="align-center" src="_images/Putovanje2.png" />
+
+    </div>
+    <p><img alt="Izazov" src="_images/Izazov.png" /> Използвайки концепциите и техниките, показани в този и в предишните уроци, създай програма, която симулира парола за влизане, когато се работи на компютъра. Нека програмата позволява на потребителя да въведе паролата три пъти. Ако потребителят не успее да въведе правилната парола, програмата ще спре да работи. Ако потребителят успее, спрайтът ще смени костюма си. Препоръчваме да използваш проекта, който можеш да намериш на линка <a href="https://scratch.mit.edu/projects/326403173/" target="_blank">https://scratch.mit.edu/projects/326403173/</a>, където поставихме спрайта Лаптоп, който има два костюма. Късмет!</p>
+
+    <div data-component="reveal" id="sakrivanjePonavljanje1"   data-showtitle="Виж едно от възможните решения" data-hidetitle="Скрий решението">
+    <p><strong>Възможен отговор</strong></p>
+<p>You will find our solution in the project <strong>Password solution</strong>, at <a href="https://scratch.mit.edu/projects/326417414/" target="_blank">https://scratch.mit.edu/projects/326417414/</a>. We recommend you remix the project and explain our solution by using comments. We know you can do it!</p>
+
+    </div>
+    </div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+        <li id="relations-prev" title='Previous chapter - Повторение' data-toggle="tooltip"><a href="Repetition.html">Previous chapter</a></li>
+    
+        <li id="relations-next" title='Next chapter - Списъци' data-toggle="tooltip"><a href="Lists.html">Next chapter</a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Повторение' data-toggle="tooltip"><a href="Repetition.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Списъци' data-toggle="tooltip"><a href="Lists.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="text-center">&copy; 2019 <a href="https://petlja.org">Petlja.org</a> 
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; vertical-align: text-bottom" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+                  
+                  (Created using  <a href="https://pypi.org/project/Sphinx/">Sphinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
